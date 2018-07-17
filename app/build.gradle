@@ -34,3 +34,9 @@ dependencies {
 
 
 }
+
+configurations.all {
+    resolutionStrategy {
+        forcedModules = ['com.android.support:support-annotations:25.1.0']
+    }
+}
